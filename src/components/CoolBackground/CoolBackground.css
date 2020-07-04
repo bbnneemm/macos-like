@@ -1,0 +1,13 @@
+.CoolBackground {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  overflow: hidden;
+  z-index: -1000;
+}
+.CoolBackground .divblock {
+  position: absolute;
+  height: 12.5vh;
+  width: 6.25vw;
+  opacity: 0;
+}

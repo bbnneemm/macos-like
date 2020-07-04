@@ -1,10 +1,11 @@
 import React from 'react'; 
+import CoolBackground from '../components/CoolBackground/CoolBackground'
 
 export default class Home extends React.Component {
   render() {
     return(
         <div>
-            Home页面
+            <CoolBackground></CoolBackground>
         </div>
     )  
   }

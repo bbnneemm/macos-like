@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Router from './Router'
-import './styles/common/global.css' // 引入全局样式
+import './styles/global.css' // 引入全局样式
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router />
+    <Router/>
   </React.StrictMode>,
   document.getElementById('root')
 )
